@@ -38,7 +38,7 @@ a {
     text-decoration: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 550px) {
   body {
     margin-top: 100px;
     text-align: center;
