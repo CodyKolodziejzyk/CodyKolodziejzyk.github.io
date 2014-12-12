@@ -23,6 +23,10 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <!-- SCRIPTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -38,6 +42,13 @@
       </div>
     </div>
   </div>
+
+  <script>
+  $("a").on('click', function() {
+    window.open($(this).attr('href'));
+    return false;
+  });
+  </script>
 
 </body>
 </html>
